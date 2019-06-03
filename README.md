@@ -1,2 +1,2 @@
 # dockers
-Docker containers, in branches
+Docker containers, for readme see proper directory.
