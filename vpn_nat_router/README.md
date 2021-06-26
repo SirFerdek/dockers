@@ -102,3 +102,7 @@ networks:
 
 
 For more details and how port forwarding is done, enforcing DNS and other crazy stuff, please take a look inside entrypoint script.
+
+## Disclaimer
+
+This hack is neat and very dependent on order of rules in iptables. If something breaks for you - first thing to check are iptable rules and traffic flow using tcpdump launched from host in particular container's namespace (`ip netns exec tcpdump ...` or something like that).
